@@ -1,0 +1,26 @@
+{
+  "env": "testing",
+  "development": {
+    "dialect": "pg",
+    "host": "localhost",
+    "port": "5432",
+    "database": "task_management",
+    "user": "postgres",
+    "password": "admin",
+    "pool_min": "10",
+    "pool_max": "20",
+    "secret_key": "trtWorld",
+    "session_key": "trtWorld"
+  },
+
+  "testing": {
+    "dialect": "pg",
+    "host": "localhost",
+    "port": "5432",
+    "database": "test_task_management",
+    "user": "postgres",
+    "password": "admin",
+    "pool_min": "2",
+    "pool_max": "10"
+  }
+}
